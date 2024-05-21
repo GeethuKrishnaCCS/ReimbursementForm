@@ -204,9 +204,9 @@ export default class ReimbursementRequestHOSApprovalForm extends React.Component
       await this.sendApprovedEmailNotificationToAdminFromHOS(this.props.context);
       // alert("approved");
       Toast("success", "Successfully Submitted");
-      // setTimeout(() => {
-      //   window.location.href = url;
-      // }, 3000);
+      setTimeout(() => {
+        window.location.href = url;
+      }, 3000);
     });
   }
 
@@ -343,9 +343,9 @@ export default class ReimbursementRequestHOSApprovalForm extends React.Component
     await this.sendRejectEmailNotificationToRequestorFromHOS(this.props.context);
     // alert("rejected");
     Toast("warning", "Successfully Submitted");
-    // setTimeout(() => {
-    //   window.location.href = url;
-    // }, 3000);
+    setTimeout(() => {
+      window.location.href = url;
+    }, 3000);
   }
 
   public async sendRejectEmailNotificationToRequestorFromHOS(context: any): Promise<void> {

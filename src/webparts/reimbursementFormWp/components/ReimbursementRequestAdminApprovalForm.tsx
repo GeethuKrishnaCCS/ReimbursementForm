@@ -186,9 +186,9 @@ export default class ReimbursementRequestAdminApprovalForm extends React.Compone
     await this.sendApprovedEmailNotificationToHOSFromAdmin(this.props.context);
     await this.sendApprovedEmailNotificationToRequestorFromAdmin(this.props.context);
     Toast("success", "Successfully approved!");
-    // setTimeout(() => {
-    //   window.location.href = url;
-    // }, 3000);
+    setTimeout(() => {
+      window.location.href = url;
+    }, 3000);
   }
 
   public async deleteTaskListItem() {
@@ -316,9 +316,9 @@ export default class ReimbursementRequestAdminApprovalForm extends React.Compone
     await this.sendRejectEmailNotificationToHOSFromAdmin(this.props.context);
     await this.sendRejectEmailNotificationToRequestorFromAdmin(this.props.context);
     Toast("warning", "Rejected");
-    // setTimeout(() => {
-    //   window.location.href = url;
-    // }, 3000);
+    setTimeout(() => {
+      window.location.href = url;
+    }, 3000);
   }
 
   public async sendRejectEmailNotificationToHOSFromAdmin(context: any): Promise<void> {

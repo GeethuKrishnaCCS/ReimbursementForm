@@ -522,10 +522,10 @@ export default class ReimbursementFormWp extends React.Component<IReimbursementF
           await this.sendEmailNotificationToHOS(this.props.context);
           this.hidePopup();
           Toast("success", "Successfully Submitted");
-          // alert("submit")
-          // setTimeout(() => {
-          //   window.location.href = url;
-          // }, 3000);
+          alert("submit")
+          setTimeout(() => {
+            window.location.href = url;
+          }, 3000);
         })
       })
 
