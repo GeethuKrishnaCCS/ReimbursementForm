@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "reimbursement-form",
+    "libraryId": "49eca2c3-9e87-4433-99d7-c2b68c0ba866",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ReimbursementForm",
+    "solutionShortDescription": "ReimbursementForm description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

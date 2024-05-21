@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reimbursement-form-client-side-solution",
+    "id": "49eca2c3-9e87-4433-99d7-c2b68c0ba866",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ReimbursementForm description"
+      },
+      "longDescription": {
+        "default": "ReimbursementForm description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reimbursement-form Feature",
+        "description": "The feature that activates elements of the reimbursement-form solution.",
+        "id": "3c814bbd-795e-41f7-ba5d-745befd9c9af",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reimbursement-form.sppkg"
+  }
+}
